@@ -17,6 +17,7 @@ function addEmployee() {
       profession: profession,
       age: age
     });
+    document.getElementById("dummy").innerHTML = "";
     document.getElementById("success").innerHTML = "Success : Employee Added!";
     document.getElementById("name").value = "";
     document.getElementById("profession").value = "";
