@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +8,7 @@
     color: #ffffff;
     text-align: center;
     font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
 }
 .container{
     margin-top: 3%;
@@ -106,5 +109,6 @@ button{
 }
 #dummy{
     margin-left: 8%;
-    margin-top: 60vh;
+    margin-top: 51vh;
+    color: grey;
 }
